@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(142, 175, 188);
+  }
+  .App {
+    background-color: rgb(105, 105, 121);
+    padding: 40px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 100px auto;
+  }
+  .className{
+    position: absolute;
+  }
+  h1{
+    background-color: #10d39c;
+    position: relative;
+    bottom:70px;
+    left:60px;
+    color: black;
+    width:180px;
+    padding:20px 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .user{
+    position: relative;
+    bottom: 50px;
+    font-size:80px;
+  
+  }
+  input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .username,.lock, .date, .email{
+    position: relative;
+    bottom: 40px;
+    left:-130px;
+    font-size:20px;
+  }
+  input[placeholder]{
+    text-align: center;
+  }
+  input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+  .remember-password{
+    display:flex;
+    justify-content: space-between;
+  }
+  .login-btn{
+    width: 50%;
+    padding: 12px 10px;
+    border-radius:5px;
+    margin-top:10px;
+    background-color: #10d39c;
+    border: none;
+    font-weight: bold;
+  }
+  .signup-btn{
+    width: 50%;
+    padding: 12px 10px;
+    border-radius:5px;
+    margin-top:10px;
+    background-color: #10d39c;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .centered-form {
+    text-align: center;
+  }
+  
+  .App a {
+    cursor: pointer;
+    color: #10d39c; 
+    text-decoration: none;
+  }
+  
+  .App a:hover {
+  }
+  
